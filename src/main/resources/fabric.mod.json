@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "target-reader",
+	"version": "${version}",
+	"name": "Target Block Reader",
+	"description": "Displays the redstone signal a target block will give off if hit in that spot.",
+	"authors": [
+		"crimew"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/target-reader/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"client": [
+			"io.github.candycalc.TargetreaderClient"
+		]
+	},
+	"mixins": [
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
