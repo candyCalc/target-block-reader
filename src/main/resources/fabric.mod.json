@@ -8,8 +8,8 @@
 		"crimew"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://modrinth.com/mod/target-block-reader",
+		"sources": "https://github.com/candyCalc/target-block-reader"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/target-reader/icon.png",
