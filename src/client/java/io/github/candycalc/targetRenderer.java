@@ -23,7 +23,7 @@ public class targetRenderer {
         ClientPlayerEntity player = client.player;
         ClientWorld world = client.world;
 
-        if (player == null || world == null) {
+        if (player == null || world == null || player.isSpectator()) {
             return;
         }
 
